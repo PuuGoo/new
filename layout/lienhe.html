@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+<head>
+    <title>Liên Hệ</title>
+    <style>
+      
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Liên Hệ Chúng Tôi</h1>
+    </header>
+
+    <div class="container">
+        <div class="contact-form">
+            <h2>Thông Tin Liên Hệ</h2>
+            <form action="submit_contact_form.php" method="post">
+                <label for="name">Họ và Tên:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Tin Nhắn:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Gửi</button>
+            </form>
+        </div>
+
+        <div class="map">
+            <h2>Vị Trí Cửa Hàng</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4435924065083!2d106.62525347538964!3d10.8538263577606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752bee0b0ef9e5%3A0x5b4da59e47aa97a8!2zQ8O0bmcgVmnDqm4gUGjhuqduIE3hu4FtIFF1YW5nIFRydW5n!5e0!3m2!1svi!2s!4v1699088493247!5m2!1svi!2s" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
